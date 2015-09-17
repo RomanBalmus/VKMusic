@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B154DE1BAAE68600B72129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B154DD1BAAE68600B72129 /* AppDelegate.swift */; };
+		42B154E01BAAE68600B72129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B154DF1BAAE68600B72129 /* ViewController.swift */; };
+		42B154E31BAAE68600B72129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B154E11BAAE68600B72129 /* Main.storyboard */; };
+		42B154E51BAAE68600B72129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B154E41BAAE68600B72129 /* Assets.xcassets */; };
+		42B154E81BAAE68600B72129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B154E61BAAE68600B72129 /* LaunchScreen.storyboard */; };
+		42B154F31BAAE68600B72129 /* VK_Music_DownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B154F21BAAE68600B72129 /* VK_Music_DownloaderTests.swift */; };
+		42B154FE1BAAE68600B72129 /* VK_Music_DownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B154FD1BAAE68600B72129 /* VK_Music_DownloaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B154EF1BAAE68600B72129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B154D21BAAE68600B72129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B154D91BAAE68600B72129;
+			remoteInfo = "VK Music Downloader";
+		};
+		42B154FA1BAAE68600B72129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B154D21BAAE68600B72129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B154D91BAAE68600B72129;
+			remoteInfo = "VK Music Downloader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42B154DA1BAAE68600B72129 /* VK Music Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK Music Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B154DD1BAAE68600B72129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42B154DF1BAAE68600B72129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42B154E21BAAE68600B72129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42B154E41BAAE68600B72129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42B154E71BAAE68600B72129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42B154E91BAAE68600B72129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B154EE1BAAE68600B72129 /* VK Music DownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK Music DownloaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B154F21BAAE68600B72129 /* VK_Music_DownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_Music_DownloaderTests.swift; sourceTree = "<group>"; };
+		42B154F41BAAE68600B72129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B154F91BAAE68600B72129 /* VK Music DownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK Music DownloaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B154FD1BAAE68600B72129 /* VK_Music_DownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_Music_DownloaderUITests.swift; sourceTree = "<group>"; };
+		42B154FF1BAAE68600B72129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B154D71BAAE68600B72129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B154EB1BAAE68600B72129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B154F61BAAE68600B72129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B154D11BAAE68600B72129 = {
+			isa = PBXGroup;
+			children = (
+				42B154DC1BAAE68600B72129 /* VK Music Downloader */,
+				42B154F11BAAE68600B72129 /* VK Music DownloaderTests */,
+				42B154FC1BAAE68600B72129 /* VK Music DownloaderUITests */,
+				42B154DB1BAAE68600B72129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42B154DB1BAAE68600B72129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B154DA1BAAE68600B72129 /* VK Music Downloader.app */,
+				42B154EE1BAAE68600B72129 /* VK Music DownloaderTests.xctest */,
+				42B154F91BAAE68600B72129 /* VK Music DownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B154DC1BAAE68600B72129 /* VK Music Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				42B154DD1BAAE68600B72129 /* AppDelegate.swift */,
+				42B154DF1BAAE68600B72129 /* ViewController.swift */,
+				42B154E11BAAE68600B72129 /* Main.storyboard */,
+				42B154E41BAAE68600B72129 /* Assets.xcassets */,
+				42B154E61BAAE68600B72129 /* LaunchScreen.storyboard */,
+				42B154E91BAAE68600B72129 /* Info.plist */,
+			);
+			path = "VK Music Downloader";
+			sourceTree = "<group>";
+		};
+		42B154F11BAAE68600B72129 /* VK Music DownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				42B154F21BAAE68600B72129 /* VK_Music_DownloaderTests.swift */,
+				42B154F41BAAE68600B72129 /* Info.plist */,
+			);
+			path = "VK Music DownloaderTests";
+			sourceTree = "<group>";
+		};
+		42B154FC1BAAE68600B72129 /* VK Music DownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42B154FD1BAAE68600B72129 /* VK_Music_DownloaderUITests.swift */,
+				42B154FF1BAAE68600B72129 /* Info.plist */,
+			);
+			path = "VK Music DownloaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B154D91BAAE68600B72129 /* VK Music Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B155021BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music Downloader" */;
+			buildPhases = (
+				42B154D61BAAE68600B72129 /* Sources */,
+				42B154D71BAAE68600B72129 /* Frameworks */,
+				42B154D81BAAE68600B72129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VK Music Downloader";
+			productName = "VK Music Downloader";
+			productReference = 42B154DA1BAAE68600B72129 /* VK Music Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42B154ED1BAAE68600B72129 /* VK Music DownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B155051BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music DownloaderTests" */;
+			buildPhases = (
+				42B154EA1BAAE68600B72129 /* Sources */,
+				42B154EB1BAAE68600B72129 /* Frameworks */,
+				42B154EC1BAAE68600B72129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B154F01BAAE68600B72129 /* PBXTargetDependency */,
+			);
+			name = "VK Music DownloaderTests";
+			productName = "VK Music DownloaderTests";
+			productReference = 42B154EE1BAAE68600B72129 /* VK Music DownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42B154F81BAAE68600B72129 /* VK Music DownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B155081BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music DownloaderUITests" */;
+			buildPhases = (
+				42B154F51BAAE68600B72129 /* Sources */,
+				42B154F61BAAE68600B72129 /* Frameworks */,
+				42B154F71BAAE68600B72129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B154FB1BAAE68600B72129 /* PBXTargetDependency */,
+			);
+			name = "VK Music DownloaderUITests";
+			productName = "VK Music DownloaderUITests";
+			productReference = 42B154F91BAAE68600B72129 /* VK Music DownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B154D21BAAE68600B72129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iOS;
+				TargetAttributes = {
+					42B154D91BAAE68600B72129 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					42B154ED1BAAE68600B72129 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 42B154D91BAAE68600B72129;
+					};
+					42B154F81BAAE68600B72129 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 42B154D91BAAE68600B72129;
+					};
+				};
+			};
+			buildConfigurationList = 42B154D51BAAE68600B72129 /* Build configuration list for PBXProject "VK Music Downloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42B154D11BAAE68600B72129;
+			productRefGroup = 42B154DB1BAAE68600B72129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B154D91BAAE68600B72129 /* VK Music Downloader */,
+				42B154ED1BAAE68600B72129 /* VK Music DownloaderTests */,
+				42B154F81BAAE68600B72129 /* VK Music DownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B154D81BAAE68600B72129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B154E81BAAE68600B72129 /* LaunchScreen.storyboard in Resources */,
+				42B154E51BAAE68600B72129 /* Assets.xcassets in Resources */,
+				42B154E31BAAE68600B72129 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B154EC1BAAE68600B72129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B154F71BAAE68600B72129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B154D61BAAE68600B72129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B154E01BAAE68600B72129 /* ViewController.swift in Sources */,
+				42B154DE1BAAE68600B72129 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B154EA1BAAE68600B72129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B154F31BAAE68600B72129 /* VK_Music_DownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B154F51BAAE68600B72129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B154FE1BAAE68600B72129 /* VK_Music_DownloaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42B154F01BAAE68600B72129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B154D91BAAE68600B72129 /* VK Music Downloader */;
+			targetProxy = 42B154EF1BAAE68600B72129 /* PBXContainerItemProxy */;
+		};
+		42B154FB1BAAE68600B72129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B154D91BAAE68600B72129 /* VK Music Downloader */;
+			targetProxy = 42B154FA1BAAE68600B72129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42B154E11BAAE68600B72129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B154E21BAAE68600B72129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42B154E61BAAE68600B72129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B154E71BAAE68600B72129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42B155001BAAE68600B72129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42B155011BAAE68600B72129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B155031BAAE68600B72129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VK Music Downloader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roman.VK-Music-Downloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42B155041BAAE68600B72129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VK Music Downloader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roman.VK-Music-Downloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42B155061BAAE68600B72129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VK Music DownloaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roman.VK-Music-DownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK Music Downloader.app/VK Music Downloader";
+			};
+			name = Debug;
+		};
+		42B155071BAAE68600B72129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VK Music DownloaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roman.VK-Music-DownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK Music Downloader.app/VK Music Downloader";
+			};
+			name = Release;
+		};
+		42B155091BAAE68600B72129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VK Music DownloaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roman.VK-Music-DownloaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "VK Music Downloader";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		42B1550A1BAAE68600B72129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VK Music DownloaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roman.VK-Music-DownloaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "VK Music Downloader";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B154D51BAAE68600B72129 /* Build configuration list for PBXProject "VK Music Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B155001BAAE68600B72129 /* Debug */,
+				42B155011BAAE68600B72129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B155021BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B155031BAAE68600B72129 /* Debug */,
+				42B155041BAAE68600B72129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42B155051BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music DownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B155061BAAE68600B72129 /* Debug */,
+				42B155071BAAE68600B72129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42B155081BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music DownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B155091BAAE68600B72129 /* Debug */,
+				42B1550A1BAAE68600B72129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42B154D21BAAE68600B72129 /* Project object */;
+}
