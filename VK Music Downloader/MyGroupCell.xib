@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupCell" id="lLe-Pw-DAd" customClass="MyGroupCell" customModule="VK_Music_Downloader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lLe-Pw-DAd" id="rN0-mz-rB1">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v77-ie-rEa">
+                        <rect key="frame" x="1" y="0.0" width="318" height="43"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="Wcu-dR-lTD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="v77-ie-rEa" firstAttribute="top" secondItem="rN0-mz-rB1" secondAttribute="top" id="IkX-fK-EOd"/>
+                    <constraint firstItem="v77-ie-rEa" firstAttribute="centerX" secondItem="rN0-mz-rB1" secondAttribute="centerX" id="Olj-Yp-DVq"/>
+                    <constraint firstAttribute="bottom" secondItem="v77-ie-rEa" secondAttribute="bottom" id="imS-3x-a0x"/>
+                    <constraint firstItem="v77-ie-rEa" firstAttribute="leading" secondItem="rN0-mz-rB1" secondAttribute="leadingMargin" constant="-7" id="qjI-jB-oUw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="headingLabel" destination="v77-ie-rEa" id="kUp-eP-4F0"/>
+            </connections>
+            <point key="canvasLocation" x="581" y="288"/>
+        </tableViewCell>
+    </objects>
+</document>

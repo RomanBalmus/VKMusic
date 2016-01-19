@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="friendCell" id="ccm-1X-akn" customClass="MyFriendCell" customModule="Music_Player" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ccm-1X-akn" id="BUg-3Z-2kr">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y75-kl-zq2">
+                        <rect key="frame" x="1" y="0.0" width="276" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="gVQ-aX-gNs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbL-yF-P61">
+                        <rect key="frame" x="292" y="11" width="20" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZbL-yF-P61" firstAttribute="baseline" secondItem="y75-kl-zq2" secondAttribute="baseline" constant="-9" id="0Sm-vB-gx7"/>
+                    <constraint firstItem="ZbL-yF-P61" firstAttribute="leading" secondItem="y75-kl-zq2" secondAttribute="trailing" constant="15" id="7cf-PK-sRh"/>
+                    <constraint firstAttribute="trailing" secondItem="y75-kl-zq2" secondAttribute="trailing" constant="43" id="7rX-Ih-GU9"/>
+                    <constraint firstAttribute="bottom" secondItem="y75-kl-zq2" secondAttribute="bottom" id="EEA-0f-dSo"/>
+                    <constraint firstItem="y75-kl-zq2" firstAttribute="top" secondItem="BUg-3Z-2kr" secondAttribute="top" id="Pdq-RR-p4L"/>
+                    <constraint firstAttribute="trailing" secondItem="ZbL-yF-P61" secondAttribute="trailing" constant="8" id="cN0-kz-k2y"/>
+                    <constraint firstItem="y75-kl-zq2" firstAttribute="leading" secondItem="BUg-3Z-2kr" secondAttribute="leadingMargin" constant="-7" id="e5E-yW-5eA"/>
+                    <constraint firstItem="ZbL-yF-P61" firstAttribute="firstBaseline" secondItem="y75-kl-zq2" secondAttribute="firstBaseline" constant="9" id="yOV-10-K1v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="countLabel" destination="ZbL-yF-P61" id="4ZZ-am-ToR"/>
+                <outlet property="headingLabel" destination="y75-kl-zq2" id="mtW-9n-ChF"/>
+            </connections>
+            <point key="canvasLocation" x="688" y="416"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,16 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423D5F2C1BCBA2140010B36D /* RecomendedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D5F2B1BCBA2140010B36D /* RecomendedController.swift */; settings = {ASSET_TAGS = (); }; };
+		428F65531BB43F120020D5A1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428F65521BB43F120020D5A1 /* AudioToolbox.framework */; };
+		429BAEC41BB52750006F156C /* libHysteriaPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 429BAEC31BB52750006F156C /* libHysteriaPlayer.a */; };
+		42A396F51BC50D4F00DC8499 /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A396F21BC50D4F00DC8499 /* Download.m */; settings = {ASSET_TAGS = (); }; };
+		42A396F61BC50D4F00DC8499 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A396F41BC50D4F00DC8499 /* DownloadManager.m */; settings = {ASSET_TAGS = (); }; };
+		42AF41321BABE95B00233CAD /* MyLocalFilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF41311BABE95B00233CAD /* MyLocalFilesController.swift */; settings = {ASSET_TAGS = (); }; };
+		42AF41361BAC0A1E00233CAD /* ARNTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF41341BAC0A1E00233CAD /* ARNTransitionAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+		42AF41371BAC0A1E00233CAD /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF41351BAC0A1E00233CAD /* LineView.swift */; settings = {ASSET_TAGS = (); }; };
+		42AF41391BAC0C5E00233CAD /* AnimationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF41381BAC0C5E00233CAD /* AnimationContainer.swift */; settings = {ASSET_TAGS = (); }; };
+		42AF414A1BAC3C4B00233CAD /* LNPopupController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AF41471BAC382800233CAD /* LNPopupController.framework */; };
+		42AF414B1BAC3C4B00233CAD /* LNPopupController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42AF41471BAC382800233CAD /* LNPopupController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		42B154DE1BAAE68600B72129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B154DD1BAAE68600B72129 /* AppDelegate.swift */; };
-		42B154E01BAAE68600B72129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B154DF1BAAE68600B72129 /* ViewController.swift */; };
 		42B154E31BAAE68600B72129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B154E11BAAE68600B72129 /* Main.storyboard */; };
 		42B154E51BAAE68600B72129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B154E41BAAE68600B72129 /* Assets.xcassets */; };
 		42B154E81BAAE68600B72129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B154E61BAAE68600B72129 /* LaunchScreen.storyboard */; };
 		42B154F31BAAE68600B72129 /* VK_Music_DownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B154F21BAAE68600B72129 /* VK_Music_DownloaderTests.swift */; };
 		42B154FE1BAAE68600B72129 /* VK_Music_DownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B154FD1BAAE68600B72129 /* VK_Music_DownloaderUITests.swift */; };
+		42B155151BAAE74F00B72129 /* MyMusicTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1550F1BAAE74F00B72129 /* MyMusicTableCell.swift */; settings = {ASSET_TAGS = (); }; };
+		42B155161BAAE74F00B72129 /* MyMusicTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B155101BAAE74F00B72129 /* MyMusicTableCell.xib */; settings = {ASSET_TAGS = (); }; };
+		42B155171BAAE74F00B72129 /* MyFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B155111BAAE74F00B72129 /* MyFriendCell.xib */; settings = {ASSET_TAGS = (); }; };
+		42B155181BAAE74F00B72129 /* MyFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B155121BAAE74F00B72129 /* MyFriendCell.swift */; settings = {ASSET_TAGS = (); }; };
+		42B155191BAAE74F00B72129 /* MyGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B155131BAAE74F00B72129 /* MyGroupCell.swift */; settings = {ASSET_TAGS = (); }; };
+		42B1551A1BAAE74F00B72129 /* MyGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B155141BAAE74F00B72129 /* MyGroupCell.xib */; settings = {ASSET_TAGS = (); }; };
+		42B2AA621BB6878B00881FE2 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA4E1BB6878B00881FE2 /* AFDownloadRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA631BB6878B00881FE2 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA501BB6878B00881FE2 /* AFHTTPClient.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA641BB6878B00881FE2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA521BB6878B00881FE2 /* AFHTTPRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA651BB6878B00881FE2 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA541BB6878B00881FE2 /* AFImageRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA661BB6878B00881FE2 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA561BB6878B00881FE2 /* AFJSONRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA671BB6878B00881FE2 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA581BB6878B00881FE2 /* AFNetworkActivityIndicatorManager.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA681BB6878B00881FE2 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA5B1BB6878B00881FE2 /* AFPropertyListRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA691BB6878B00881FE2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA5D1BB6878B00881FE2 /* AFURLConnectionOperation.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA6A1BB6878B00881FE2 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA5F1BB6878B00881FE2 /* AFXMLRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
+		42B2AA6B1BB6878B00881FE2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2AA611BB6878B00881FE2 /* UIImageView+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
+		42B4BCCF1BAAE81D00F32E89 /* IGLDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BCCC1BAAE81D00F32E89 /* IGLDropDownItem.m */; settings = {ASSET_TAGS = (); }; };
+		42B4BCD01BAAE81D00F32E89 /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BCCE1BAAE81D00F32E89 /* IGLDropDownMenu.m */; settings = {ASSET_TAGS = (); }; };
+		42B4BCDC1BAAE89400F32E89 /* MyMusicTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BCDA1BAAE89400F32E89 /* MyMusicTableController.swift */; settings = {ASSET_TAGS = (); }; };
+		42B4BCDD1BAAE89400F32E89 /* GroupTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BCDB1BAAE89400F32E89 /* GroupTableController.swift */; settings = {ASSET_TAGS = (); }; };
+		42B4BCE31BAAE8B000F32E89 /* SeparatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BCE01BAAE8B000F32E89 /* SeparatorViewController.m */; settings = {ASSET_TAGS = (); }; };
+		42B4BCE41BAAE8B000F32E89 /* IntroSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BCE21BAAE8B000F32E89 /* IntroSegue.m */; settings = {ASSET_TAGS = (); }; };
+		42B4BCE91BAAE90E00F32E89 /* TAOverlay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42B4BCE61BAAE90E00F32E89 /* TAOverlay.bundle */; settings = {ASSET_TAGS = (); }; };
+		42B4BCEA1BAAE90E00F32E89 /* TAOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BCE81BAAE90E00F32E89 /* TAOverlay.m */; settings = {ASSET_TAGS = (); }; };
+		42B4BCEC1BAAEAF700F32E89 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4BCEB1BAAEAF700F32E89 /* CoreMedia.framework */; };
+		42B4BCEE1BAAEAFA00F32E89 /* libVK-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4BCED1BAAEAFA00F32E89 /* libVK-ios-sdk.a */; };
+		42B4BCF81BAAEB2200F32E89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4BCF71BAAEB2200F32E89 /* AVFoundation.framework */; };
+		42B4BCFA1BAAEB2B00F32E89 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4BCF91BAAEB2B00F32E89 /* MobileCoreServices.framework */; };
+		42B4BCFC1BAAEB3200F32E89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4BCFB1BAAEB3200F32E89 /* SystemConfiguration.framework */; };
+		42B4BCFE1BAAEB3900F32E89 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4BCFD1BAAEB3900F32E89 /* CoreImage.framework */; };
+		42B4BD001BAAEB3F00F32E89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4BCFF1BAAEB3F00F32E89 /* QuartzCore.framework */; };
+		42B4BD051BAAEE3300F32E89 /* TestPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BD041BAAEE3300F32E89 /* TestPlayerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		42B4BD081BAAF21700F32E89 /* VideoPlayerManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BD071BAAF21700F32E89 /* VideoPlayerManage.m */; settings = {ASSET_TAGS = (); }; };
+		42B4BD0C1BAAF5BA00F32E89 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BD0B1BAAF5BA00F32E89 /* IntroViewController.m */; settings = {ASSET_TAGS = (); }; };
+		42B4BD1A1BAAF70C00F32E89 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BD161BAAF70C00F32E89 /* ENSideMenu.swift */; settings = {ASSET_TAGS = (); }; };
+		42B4BD1B1BAAF70C00F32E89 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BD171BAAF70C00F32E89 /* ENSideMenuNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
+		42B4BD1C1BAAF70C00F32E89 /* MyMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BD181BAAF70C00F32E89 /* MyMenuNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
+		42B4BD1D1BAAF70C00F32E89 /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BD191BAAF70C00F32E89 /* MyMenuTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		42B4BD9C1BAB15AA00F32E89 /* HttpDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4BD9B1BAB15AA00F32E89 /* HttpDownloader.swift */; settings = {ASSET_TAGS = (); }; };
+		42D53C621BB17CFE005C8E11 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D53C611BB17CFE005C8E11 /* CFNetwork.framework */; };
+		42D53C641BB17D04005C8E11 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D53C631BB17D04005C8E11 /* Security.framework */; };
+		42D53C671BB18C1B005C8E11 /* libEGOCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D53C661BB18C1B005C8E11 /* libEGOCache.a */; };
+		7723ABD02AB9FE7EC894A664 /* libPods-VK Music Downloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 318FCA52BCADBE486ADDBC02 /* libPods-VK Music Downloader.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		42AF41461BAC382800233CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AF41421BAC382700233CAD /* LNPopupController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39DB52E51B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
+		42AF414C1BAC3C4B00233CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AF41421BAC382700233CAD /* LNPopupController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB52E41B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
 		42B154EF1BAAE68600B72129 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 42B154D21BAAE68600B72129 /* Project object */;
@@ -33,10 +100,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		42AF414E1BAC3C4B00233CAD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42AF414B1BAC3C4B00233CAD /* LNPopupController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		318FCA52BCADBE486ADDBC02 /* libPods-VK Music Downloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VK Music Downloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423D5F2B1BCBA2140010B36D /* RecomendedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendedController.swift; sourceTree = "<group>"; };
+		428F65521BB43F120020D5A1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		428F65551BB43FFD0020D5A1 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		428F65571BB440000020D5A1 /* libAFDownloadRequestOperation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFDownloadRequestOperation.a; path = "Pods/../build/Debug-iphoneos/libAFDownloadRequestOperation.a"; sourceTree = "<group>"; };
+		429BAEC31BB52750006F156C /* libHysteriaPlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHysteriaPlayer.a; path = "Pods/../build/Debug-iphoneos/libHysteriaPlayer.a"; sourceTree = "<group>"; };
+		42A396F11BC50D4F00DC8499 /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		42A396F21BC50D4F00DC8499 /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
+		42A396F31BC50D4F00DC8499 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		42A396F41BC50D4F00DC8499 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		42A44A5B1BAD4C8F00E2F0E9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		42AF41311BABE95B00233CAD /* MyLocalFilesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocalFilesController.swift; sourceTree = "<group>"; };
+		42AF41341BAC0A1E00233CAD /* ARNTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARNTransitionAnimator.swift; sourceTree = "<group>"; };
+		42AF41351BAC0A1E00233CAD /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		42AF41381BAC0C5E00233CAD /* AnimationContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationContainer.swift; sourceTree = "<group>"; };
+		42AF41421BAC382700233CAD /* LNPopupController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LNPopupController.xcodeproj; path = "LNPopupController-master/LNPopupController/LNPopupController.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		42B154DA1BAAE68600B72129 /* VK Music Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK Music Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B154DD1BAAE68600B72129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42B154DF1BAAE68600B72129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42B154E21BAAE68600B72129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42B154E41BAAE68600B72129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42B154E71BAAE68600B72129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +143,76 @@
 		42B154F91BAAE68600B72129 /* VK Music DownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK Music DownloaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B154FD1BAAE68600B72129 /* VK_Music_DownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_Music_DownloaderUITests.swift; sourceTree = "<group>"; };
 		42B154FF1BAAE68600B72129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B1550F1BAAE74F00B72129 /* MyMusicTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMusicTableCell.swift; sourceTree = "<group>"; };
+		42B155101BAAE74F00B72129 /* MyMusicTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMusicTableCell.xib; sourceTree = "<group>"; };
+		42B155111BAAE74F00B72129 /* MyFriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFriendCell.xib; sourceTree = "<group>"; };
+		42B155121BAAE74F00B72129 /* MyFriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFriendCell.swift; sourceTree = "<group>"; };
+		42B155131BAAE74F00B72129 /* MyGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGroupCell.swift; sourceTree = "<group>"; };
+		42B155141BAAE74F00B72129 /* MyGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyGroupCell.xib; sourceTree = "<group>"; };
+		42B1551B1BAAE7AD00B72129 /* VK Music Downloader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VK Music Downloader-Bridging-Header.h"; sourceTree = "<group>"; };
+		42B2AA4D1BB6878B00881FE2 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
+		42B2AA4E1BB6878B00881FE2 /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
+		42B2AA4F1BB6878B00881FE2 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		42B2AA501BB6878B00881FE2 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		42B2AA511BB6878B00881FE2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		42B2AA521BB6878B00881FE2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		42B2AA531BB6878B00881FE2 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		42B2AA541BB6878B00881FE2 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		42B2AA551BB6878B00881FE2 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		42B2AA561BB6878B00881FE2 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		42B2AA571BB6878B00881FE2 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		42B2AA581BB6878B00881FE2 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		42B2AA591BB6878B00881FE2 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		42B2AA5A1BB6878B00881FE2 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		42B2AA5B1BB6878B00881FE2 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		42B2AA5C1BB6878B00881FE2 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		42B2AA5D1BB6878B00881FE2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		42B2AA5E1BB6878B00881FE2 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		42B2AA5F1BB6878B00881FE2 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		42B2AA601BB6878B00881FE2 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		42B2AA611BB6878B00881FE2 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		42B4BCCB1BAAE81D00F32E89 /* IGLDropDownItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownItem.h; sourceTree = "<group>"; };
+		42B4BCCC1BAAE81D00F32E89 /* IGLDropDownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownItem.m; sourceTree = "<group>"; };
+		42B4BCCD1BAAE81D00F32E89 /* IGLDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownMenu.h; sourceTree = "<group>"; };
+		42B4BCCE1BAAE81D00F32E89 /* IGLDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownMenu.m; sourceTree = "<group>"; };
+		42B4BCDA1BAAE89400F32E89 /* MyMusicTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMusicTableController.swift; sourceTree = "<group>"; };
+		42B4BCDB1BAAE89400F32E89 /* GroupTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableController.swift; sourceTree = "<group>"; };
+		42B4BCDF1BAAE8B000F32E89 /* SeparatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorViewController.h; sourceTree = "<group>"; };
+		42B4BCE01BAAE8B000F32E89 /* SeparatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorViewController.m; sourceTree = "<group>"; };
+		42B4BCE11BAAE8B000F32E89 /* IntroSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroSegue.h; sourceTree = "<group>"; };
+		42B4BCE21BAAE8B000F32E89 /* IntroSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroSegue.m; sourceTree = "<group>"; };
+		42B4BCE61BAAE90E00F32E89 /* TAOverlay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TAOverlay.bundle; sourceTree = "<group>"; };
+		42B4BCE71BAAE90E00F32E89 /* TAOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAOverlay.h; sourceTree = "<group>"; };
+		42B4BCE81BAAE90E00F32E89 /* TAOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAOverlay.m; sourceTree = "<group>"; };
+		42B4BCEB1BAAEAF700F32E89 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		42B4BCED1BAAEAFA00F32E89 /* libVK-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libVK-ios-sdk.a"; path = "Pods/../build/Debug-iphoneos/libVK-ios-sdk.a"; sourceTree = "<group>"; };
+		42B4BCEF1BAAEB0300F32E89 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		42B4BCF11BAAEB0F00F32E89 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		42B4BCF31BAAEB1600F32E89 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		42B4BCF51BAAEB1B00F32E89 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		42B4BCF71BAAEB2200F32E89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		42B4BCF91BAAEB2B00F32E89 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		42B4BCFB1BAAEB3200F32E89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		42B4BCFD1BAAEB3900F32E89 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		42B4BCFF1BAAEB3F00F32E89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		42B4BD041BAAEE3300F32E89 /* TestPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPlayerViewController.swift; sourceTree = "<group>"; };
+		42B4BD061BAAF21700F32E89 /* VideoPlayerManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerManage.h; sourceTree = "<group>"; };
+		42B4BD071BAAF21700F32E89 /* VideoPlayerManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerManage.m; sourceTree = "<group>"; };
+		42B4BD0A1BAAF5BA00F32E89 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		42B4BD0B1BAAF5BA00F32E89 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		42B4BD161BAAF70C00F32E89 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		42B4BD171BAAF70C00F32E89 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		42B4BD181BAAF70C00F32E89 /* MyMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuNavigationController.swift; sourceTree = "<group>"; };
+		42B4BD191BAAF70C00F32E89 /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		42B4BD3A1BAAFC7200F32E89 /* Cheapjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cheapjack.framework; path = "../../../Library/Developer/Xcode/DerivedData/VK_Music_Downloader-bimxkdueqxpekdenbbftlkeaohja/Build/Products/Debug-iphoneos/Cheapjack.framework"; sourceTree = "<group>"; };
+		42B4BD9B1BAB15AA00F32E89 /* HttpDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpDownloader.swift; sourceTree = "<group>"; };
+		42D53C611BB17CFE005C8E11 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		42D53C631BB17D04005C8E11 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		42D53C661BB18C1B005C8E11 /* libEGOCache.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEGOCache.a; path = "Pods/../build/Debug-iphoneos/libEGOCache.a"; sourceTree = "<group>"; };
+		42F681E91BB9844800E1E5F2 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		42F681EB1BB9847700E1E5F2 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		5C7ECC3C7F5CB2652044E2D2 /* Pods-VK Music Downloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK Music Downloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-VK Music Downloader/Pods-VK Music Downloader.release.xcconfig"; sourceTree = "<group>"; };
+		6297286BC8B1A478BE4ACBFF /* Pods-VK Music Downloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK Music Downloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VK Music Downloader/Pods-VK Music Downloader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +220,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429BAEC41BB52750006F156C /* libHysteriaPlayer.a in Frameworks */,
+				428F65531BB43F120020D5A1 /* AudioToolbox.framework in Frameworks */,
+				42D53C671BB18C1B005C8E11 /* libEGOCache.a in Frameworks */,
+				42D53C641BB17D04005C8E11 /* Security.framework in Frameworks */,
+				42D53C621BB17CFE005C8E11 /* CFNetwork.framework in Frameworks */,
+				42B4BD001BAAEB3F00F32E89 /* QuartzCore.framework in Frameworks */,
+				42B4BCFE1BAAEB3900F32E89 /* CoreImage.framework in Frameworks */,
+				42B4BCFC1BAAEB3200F32E89 /* SystemConfiguration.framework in Frameworks */,
+				42B4BCFA1BAAEB2B00F32E89 /* MobileCoreServices.framework in Frameworks */,
+				42B4BCF81BAAEB2200F32E89 /* AVFoundation.framework in Frameworks */,
+				42AF414A1BAC3C4B00233CAD /* LNPopupController.framework in Frameworks */,
+				42B4BCEE1BAAEAFA00F32E89 /* libVK-ios-sdk.a in Frameworks */,
+				42B4BCEC1BAAEAF700F32E89 /* CoreMedia.framework in Frameworks */,
+				7723ABD02AB9FE7EC894A664 /* libPods-VK Music Downloader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +254,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42A396F01BC50D4100DC8499 /* NEWDOWNLOADMANAGER */ = {
+			isa = PBXGroup;
+			children = (
+				42A396F11BC50D4F00DC8499 /* Download.h */,
+				42A396F21BC50D4F00DC8499 /* Download.m */,
+				42A396F31BC50D4F00DC8499 /* DownloadManager.h */,
+				42A396F41BC50D4F00DC8499 /* DownloadManager.m */,
+			);
+			name = NEWDOWNLOADMANAGER;
+			sourceTree = "<group>";
+		};
+		42AF41331BAC09FB00233CAD /* TRANSITIONFILES */ = {
+			isa = PBXGroup;
+			children = (
+				42AF41341BAC0A1E00233CAD /* ARNTransitionAnimator.swift */,
+				42AF41351BAC0A1E00233CAD /* LineView.swift */,
+				42AF41381BAC0C5E00233CAD /* AnimationContainer.swift */,
+			);
+			name = TRANSITIONFILES;
+			sourceTree = "<group>";
+		};
+		42AF41431BAC382700233CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42AF41471BAC382800233CAD /* LNPopupController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		42B154D11BAAE68600B72129 = {
 			isa = PBXGroup;
 			children = (
+				42F681EB1BB9847700E1E5F2 /* Result.framework */,
+				42F681E91BB9844800E1E5F2 /* ReactiveCocoa.framework */,
 				42B154DC1BAAE68600B72129 /* VK Music Downloader */,
 				42B154F11BAAE68600B72129 /* VK Music DownloaderTests */,
 				42B154FC1BAAE68600B72129 /* VK Music DownloaderUITests */,
 				42B154DB1BAAE68600B72129 /* Products */,
+				E27B04DDE7E3174CC7636374 /* Pods */,
+				4F4CA478006568B03FBACB95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +310,14 @@
 		42B154DC1BAAE68600B72129 /* VK Music Downloader */ = {
 			isa = PBXGroup;
 			children = (
+				42AF41421BAC382700233CAD /* LNPopupController.xcodeproj */,
+				42AF41331BAC09FB00233CAD /* TRANSITIONFILES */,
+				42B4BCD91BAAE88100F32E89 /* CONTROLLERS */,
+				42B1550E1BAAE73500B72129 /* CELLS */,
+				42B1550D1BAAE70400B72129 /* OBJECTIVEC */,
+				42B1551B1BAAE7AD00B72129 /* VK Music Downloader-Bridging-Header.h */,
+				42B1550B1BAAE6E000B72129 /* SIDEMENU */,
 				42B154DD1BAAE68600B72129 /* AppDelegate.swift */,
-				42B154DF1BAAE68600B72129 /* ViewController.swift */,
 				42B154E11BAAE68600B72129 /* Main.storyboard */,
 				42B154E41BAAE68600B72129 /* Assets.xcassets */,
 				42B154E61BAAE68600B72129 /* LaunchScreen.storyboard */,
@@ -125,6 +344,164 @@
 			path = "VK Music DownloaderUITests";
 			sourceTree = "<group>";
 		};
+		42B1550B1BAAE6E000B72129 /* SIDEMENU */ = {
+			isa = PBXGroup;
+			children = (
+				42B4BD161BAAF70C00F32E89 /* ENSideMenu.swift */,
+				42B4BD171BAAF70C00F32E89 /* ENSideMenuNavigationController.swift */,
+				42B4BD181BAAF70C00F32E89 /* MyMenuNavigationController.swift */,
+				42B4BD191BAAF70C00F32E89 /* MyMenuTableViewController.swift */,
+			);
+			name = SIDEMENU;
+			sourceTree = "<group>";
+		};
+		42B1550C1BAAE6F300B72129 /* PLAYER */ = {
+			isa = PBXGroup;
+			children = (
+				42B4BD061BAAF21700F32E89 /* VideoPlayerManage.h */,
+				42B4BD071BAAF21700F32E89 /* VideoPlayerManage.m */,
+			);
+			name = PLAYER;
+			sourceTree = "<group>";
+		};
+		42B1550D1BAAE70400B72129 /* OBJECTIVEC */ = {
+			isa = PBXGroup;
+			children = (
+				42A396F01BC50D4100DC8499 /* NEWDOWNLOADMANAGER */,
+				42B2AA4C1BB6878B00881FE2 /* AFNetworking */,
+				42B4BCE51BAAE8FD00F32E89 /* PROGRESS */,
+				42B4BCDE1BAAE8A500F32E89 /* CONTROLLERS */,
+				42B4BCCA1BAAE81D00F32E89 /* IGLDropdown */,
+				42B1550C1BAAE6F300B72129 /* PLAYER */,
+			);
+			name = OBJECTIVEC;
+			sourceTree = "<group>";
+		};
+		42B1550E1BAAE73500B72129 /* CELLS */ = {
+			isa = PBXGroup;
+			children = (
+				42B1550F1BAAE74F00B72129 /* MyMusicTableCell.swift */,
+				42B155101BAAE74F00B72129 /* MyMusicTableCell.xib */,
+				42B155111BAAE74F00B72129 /* MyFriendCell.xib */,
+				42B155121BAAE74F00B72129 /* MyFriendCell.swift */,
+				42B155131BAAE74F00B72129 /* MyGroupCell.swift */,
+				42B155141BAAE74F00B72129 /* MyGroupCell.xib */,
+			);
+			name = CELLS;
+			sourceTree = "<group>";
+		};
+		42B2AA4C1BB6878B00881FE2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				42B2AA4D1BB6878B00881FE2 /* AFDownloadRequestOperation.h */,
+				42B2AA4E1BB6878B00881FE2 /* AFDownloadRequestOperation.m */,
+				42B2AA4F1BB6878B00881FE2 /* AFHTTPClient.h */,
+				42B2AA501BB6878B00881FE2 /* AFHTTPClient.m */,
+				42B2AA511BB6878B00881FE2 /* AFHTTPRequestOperation.h */,
+				42B2AA521BB6878B00881FE2 /* AFHTTPRequestOperation.m */,
+				42B2AA531BB6878B00881FE2 /* AFImageRequestOperation.h */,
+				42B2AA541BB6878B00881FE2 /* AFImageRequestOperation.m */,
+				42B2AA551BB6878B00881FE2 /* AFJSONRequestOperation.h */,
+				42B2AA561BB6878B00881FE2 /* AFJSONRequestOperation.m */,
+				42B2AA571BB6878B00881FE2 /* AFNetworkActivityIndicatorManager.h */,
+				42B2AA581BB6878B00881FE2 /* AFNetworkActivityIndicatorManager.m */,
+				42B2AA591BB6878B00881FE2 /* AFNetworking.h */,
+				42B2AA5A1BB6878B00881FE2 /* AFPropertyListRequestOperation.h */,
+				42B2AA5B1BB6878B00881FE2 /* AFPropertyListRequestOperation.m */,
+				42B2AA5C1BB6878B00881FE2 /* AFURLConnectionOperation.h */,
+				42B2AA5D1BB6878B00881FE2 /* AFURLConnectionOperation.m */,
+				42B2AA5E1BB6878B00881FE2 /* AFXMLRequestOperation.h */,
+				42B2AA5F1BB6878B00881FE2 /* AFXMLRequestOperation.m */,
+				42B2AA601BB6878B00881FE2 /* UIImageView+AFNetworking.h */,
+				42B2AA611BB6878B00881FE2 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		42B4BCCA1BAAE81D00F32E89 /* IGLDropdown */ = {
+			isa = PBXGroup;
+			children = (
+				42B4BCCB1BAAE81D00F32E89 /* IGLDropDownItem.h */,
+				42B4BCCC1BAAE81D00F32E89 /* IGLDropDownItem.m */,
+				42B4BCCD1BAAE81D00F32E89 /* IGLDropDownMenu.h */,
+				42B4BCCE1BAAE81D00F32E89 /* IGLDropDownMenu.m */,
+			);
+			path = IGLDropdown;
+			sourceTree = "<group>";
+		};
+		42B4BCD91BAAE88100F32E89 /* CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				42B4BD041BAAEE3300F32E89 /* TestPlayerViewController.swift */,
+				42A44A5B1BAD4C8F00E2F0E9 /* MyPlayground.playground */,
+				42B4BD9B1BAB15AA00F32E89 /* HttpDownloader.swift */,
+				42AF41311BABE95B00233CAD /* MyLocalFilesController.swift */,
+				42B4BCDA1BAAE89400F32E89 /* MyMusicTableController.swift */,
+				42B4BCDB1BAAE89400F32E89 /* GroupTableController.swift */,
+				423D5F2B1BCBA2140010B36D /* RecomendedController.swift */,
+			);
+			name = CONTROLLERS;
+			sourceTree = "<group>";
+		};
+		42B4BCDE1BAAE8A500F32E89 /* CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				42B4BD0A1BAAF5BA00F32E89 /* IntroViewController.h */,
+				42B4BD0B1BAAF5BA00F32E89 /* IntroViewController.m */,
+				42B4BCDF1BAAE8B000F32E89 /* SeparatorViewController.h */,
+				42B4BCE01BAAE8B000F32E89 /* SeparatorViewController.m */,
+				42B4BCE11BAAE8B000F32E89 /* IntroSegue.h */,
+				42B4BCE21BAAE8B000F32E89 /* IntroSegue.m */,
+			);
+			name = CONTROLLERS;
+			sourceTree = "<group>";
+		};
+		42B4BCE51BAAE8FD00F32E89 /* PROGRESS */ = {
+			isa = PBXGroup;
+			children = (
+				42B4BCE61BAAE90E00F32E89 /* TAOverlay.bundle */,
+				42B4BCE71BAAE90E00F32E89 /* TAOverlay.h */,
+				42B4BCE81BAAE90E00F32E89 /* TAOverlay.m */,
+			);
+			name = PROGRESS;
+			sourceTree = "<group>";
+		};
+		4F4CA478006568B03FBACB95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				429BAEC31BB52750006F156C /* libHysteriaPlayer.a */,
+				428F65571BB440000020D5A1 /* libAFDownloadRequestOperation.a */,
+				428F65551BB43FFD0020D5A1 /* libAFNetworking.a */,
+				428F65521BB43F120020D5A1 /* AudioToolbox.framework */,
+				42D53C661BB18C1B005C8E11 /* libEGOCache.a */,
+				42D53C631BB17D04005C8E11 /* Security.framework */,
+				42D53C611BB17CFE005C8E11 /* CFNetwork.framework */,
+				42B4BD3A1BAAFC7200F32E89 /* Cheapjack.framework */,
+				42B4BCFF1BAAEB3F00F32E89 /* QuartzCore.framework */,
+				42B4BCFD1BAAEB3900F32E89 /* CoreImage.framework */,
+				42B4BCFB1BAAEB3200F32E89 /* SystemConfiguration.framework */,
+				42B4BCF91BAAEB2B00F32E89 /* MobileCoreServices.framework */,
+				42B4BCF71BAAEB2200F32E89 /* AVFoundation.framework */,
+				42B4BCF51BAAEB1B00F32E89 /* AudioUnit.framework */,
+				42B4BCF31BAAEB1600F32E89 /* CoreAudioKit.framework */,
+				42B4BCF11BAAEB0F00F32E89 /* CoreAudio.framework */,
+				42B4BCEF1BAAEB0300F32E89 /* MediaPlayer.framework */,
+				42B4BCED1BAAEAFA00F32E89 /* libVK-ios-sdk.a */,
+				42B4BCEB1BAAEAF700F32E89 /* CoreMedia.framework */,
+				318FCA52BCADBE486ADDBC02 /* libPods-VK Music Downloader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27B04DDE7E3174CC7636374 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6297286BC8B1A478BE4ACBFF /* Pods-VK Music Downloader.debug.xcconfig */,
+				5C7ECC3C7F5CB2652044E2D2 /* Pods-VK Music Downloader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,13 +509,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42B155021BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music Downloader" */;
 			buildPhases = (
+				B56CD5576A11C22A076C797A /* Check Pods Manifest.lock */,
 				42B154D61BAAE68600B72129 /* Sources */,
 				42B154D71BAAE68600B72129 /* Frameworks */,
 				42B154D81BAAE68600B72129 /* Resources */,
+				516CD8304ECB9328F137CFBC /* Copy Pods Resources */,
+				42AF414E1BAC3C4B00233CAD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				42AF414D1BAC3C4B00233CAD /* PBXTargetDependency */,
 			);
 			name = "VK Music Downloader";
 			productName = "VK Music Downloader";
@@ -187,11 +568,18 @@
 		42B154D21BAAE68600B72129 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = iOS;
 				TargetAttributes = {
 					42B154D91BAAE68600B72129 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZAD32BLY8Z;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					42B154ED1BAAE68600B72129 = {
 						CreatedOnToolsVersion = 7.0;
@@ -214,6 +602,12 @@
 			mainGroup = 42B154D11BAAE68600B72129;
 			productRefGroup = 42B154DB1BAAE68600B72129 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 42AF41431BAC382700233CAD /* Products */;
+					ProjectRef = 42AF41421BAC382700233CAD /* LNPopupController.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				42B154D91BAAE68600B72129 /* VK Music Downloader */,
@@ -223,14 +617,28 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		42AF41471BAC382800233CAD /* LNPopupController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LNPopupController.framework;
+			remoteRef = 42AF41461BAC382800233CAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		42B154D81BAAE68600B72129 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B155161BAAE74F00B72129 /* MyMusicTableCell.xib in Resources */,
+				42B1551A1BAAE74F00B72129 /* MyGroupCell.xib in Resources */,
+				42B155171BAAE74F00B72129 /* MyFriendCell.xib in Resources */,
 				42B154E81BAAE68600B72129 /* LaunchScreen.storyboard in Resources */,
 				42B154E51BAAE68600B72129 /* Assets.xcassets in Resources */,
 				42B154E31BAAE68600B72129 /* Main.storyboard in Resources */,
+				42B4BCE91BAAE90E00F32E89 /* TAOverlay.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,13 +658,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		516CD8304ECB9328F137CFBC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VK Music Downloader/Pods-VK Music Downloader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56CD5576A11C22A076C797A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42B154D61BAAE68600B72129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B154E01BAAE68600B72129 /* ViewController.swift in Sources */,
+				42B155151BAAE74F00B72129 /* MyMusicTableCell.swift in Sources */,
+				42B4BCDC1BAAE89400F32E89 /* MyMusicTableController.swift in Sources */,
 				42B154DE1BAAE68600B72129 /* AppDelegate.swift in Sources */,
+				42B4BD1D1BAAF70C00F32E89 /* MyMenuTableViewController.swift in Sources */,
+				42B2AA691BB6878B00881FE2 /* AFURLConnectionOperation.m in Sources */,
+				42B2AA6B1BB6878B00881FE2 /* UIImageView+AFNetworking.m in Sources */,
+				42B155181BAAE74F00B72129 /* MyFriendCell.swift in Sources */,
+				42B4BD1A1BAAF70C00F32E89 /* ENSideMenu.swift in Sources */,
+				42B2AA671BB6878B00881FE2 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				42B2AA641BB6878B00881FE2 /* AFHTTPRequestOperation.m in Sources */,
+				42A396F61BC50D4F00DC8499 /* DownloadManager.m in Sources */,
+				42B2AA651BB6878B00881FE2 /* AFImageRequestOperation.m in Sources */,
+				42B4BD051BAAEE3300F32E89 /* TestPlayerViewController.swift in Sources */,
+				42B4BD081BAAF21700F32E89 /* VideoPlayerManage.m in Sources */,
+				42B4BCCF1BAAE81D00F32E89 /* IGLDropDownItem.m in Sources */,
+				423D5F2C1BCBA2140010B36D /* RecomendedController.swift in Sources */,
+				42AF41371BAC0A1E00233CAD /* LineView.swift in Sources */,
+				42B2AA631BB6878B00881FE2 /* AFHTTPClient.m in Sources */,
+				42AF41321BABE95B00233CAD /* MyLocalFilesController.swift in Sources */,
+				42B2AA621BB6878B00881FE2 /* AFDownloadRequestOperation.m in Sources */,
+				42B4BCDD1BAAE89400F32E89 /* GroupTableController.swift in Sources */,
+				42B2AA6A1BB6878B00881FE2 /* AFXMLRequestOperation.m in Sources */,
+				42B4BD1C1BAAF70C00F32E89 /* MyMenuNavigationController.swift in Sources */,
+				42B4BCE31BAAE8B000F32E89 /* SeparatorViewController.m in Sources */,
+				42B2AA681BB6878B00881FE2 /* AFPropertyListRequestOperation.m in Sources */,
+				42B4BD9C1BAB15AA00F32E89 /* HttpDownloader.swift in Sources */,
+				42B4BCEA1BAAE90E00F32E89 /* TAOverlay.m in Sources */,
+				42B155191BAAE74F00B72129 /* MyGroupCell.swift in Sources */,
+				42AF41391BAC0C5E00233CAD /* AnimationContainer.swift in Sources */,
+				42B4BCD01BAAE81D00F32E89 /* IGLDropDownMenu.m in Sources */,
+				42AF41361BAC0A1E00233CAD /* ARNTransitionAnimator.swift in Sources */,
+				42B2AA661BB6878B00881FE2 /* AFJSONRequestOperation.m in Sources */,
+				42B4BCE41BAAE8B000F32E89 /* IntroSegue.m in Sources */,
+				42A396F51BC50D4F00DC8499 /* Download.m in Sources */,
+				42B4BD1B1BAAF70C00F32E89 /* ENSideMenuNavigationController.swift in Sources */,
+				42B4BD0C1BAAF5BA00F32E89 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +754,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		42AF414D1BAC3C4B00233CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LNPopupController;
+			targetProxy = 42AF414C1BAC3C4B00233CAD /* PBXContainerItemProxy */;
+		};
 		42B154F01BAAE68600B72129 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 42B154D91BAAE68600B72129 /* VK Music Downloader */;
@@ -394,23 +874,66 @@
 		};
 		42B155031BAAE68600B72129 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6297286BC8B1A478BE4ACBFF /* Pods-VK Music Downloader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VK",
+					Music,
+					Downloader,
+					"$(PROJECT_DIR)/VK",
+					Music,
+					Downloader,
+					"$(PROJECT_DIR)/VK",
+					Music,
+					Downloader,
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "VK Music Downloader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roman.VK-Music-Downloader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VK Music Downloader/VK Music Downloader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		42B155041BAAE68600B72129 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7ECC3C7F5CB2652044E2D2 /* Pods-VK Music Downloader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VK",
+					Music,
+					Downloader,
+					"$(PROJECT_DIR)/VK",
+					Music,
+					Downloader,
+					"$(PROJECT_DIR)/VK",
+					Music,
+					Downloader,
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "VK Music Downloader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roman.VK-Music-Downloader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VK Music Downloader/VK Music Downloader-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -481,6 +1004,7 @@
 				42B155041BAAE68600B72129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B155051BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music DownloaderTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +1013,7 @@
 				42B155071BAAE68600B72129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B155081BAAE68600B72129 /* Build configuration list for PBXNativeTarget "VK Music DownloaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +1022,7 @@
 				42B1550A1BAAE68600B72129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
